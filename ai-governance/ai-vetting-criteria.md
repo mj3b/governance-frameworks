@@ -230,7 +230,7 @@ Contributions, challenges, and proposed revisions are welcome via pull request o
 
 - Dicastery for the Doctrine of the Faith. *Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence.* Vatican, January 2025. https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html
 - Pope Leo XIV. Message to Participants in the Builders AI Forum 2025. Vatican, November 2025. https://www.vatican.va/content/leo-xiv/en/messages/pont-messages/2025/documents/20251103-messaggio-builders-aiforum.html
-- Pope Leo XIV. Message to Participants in the Conference "Artificial Intelligence and Care for Our Common Home." Vatican, December 2025. https://www.magisterium.com/docs/dfad7d53-16ad-4b17-9629-04f3ae4f4c3f/ref/page1
+- Pope Leo XIV. Message to Participants in the Conference "Artificial Intelligence and Care for Our Common Home." Vatican, December 2025.
 - Code of Canon Law, Canon 627. https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann460-572_en.html
 - Code of Canon Law, Canon 1609. https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib7-cann1501-1670_en.html
 - Catechism of the Catholic Church, §1894. https://www.vatican.va/archive/ENG0015/_INDEX.HTM
