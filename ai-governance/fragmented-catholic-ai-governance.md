@@ -2,7 +2,7 @@
 
 > **Document type:** Research memo
 > **Status:** Working draft - U.S.A. C-DART 1 discussion
-> **Relationship:** Supplementary research underlying [CDCF AI Vetting Criteria v0.1](./AI_VETTING_CRITERIA.md)
+> **Relationship:** Supplementary research underlying [CDCF AI Vetting Criteria v0.1](./ai-vetting-criteria.md)
 
 ---
 
