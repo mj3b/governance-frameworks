@@ -18,8 +18,8 @@ The documents in this repository are initial working drafts. They are versioned,
 
 ### AI Governance
 
-| Document | Description |
-|---|---|
+| Document &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
+|:---|:---|
 | [ai-vetting-criteria.md](./ai-governance/ai-vetting-criteria.md) | Operational vetting criteria for AI tools submitted to the CDCF. Two evaluation gates, eight criteria. The primary policy document. |
 | [fragmented-catholic-ai-governance.md](./ai-governance/fragmented-catholic-ai-governance.md) | Research memo on why shared canonical AI governance standards are urgent across Catholic institutions. |
 | [governance-as-code-catholic-ai.md](./ai-governance/governance-as-code-catholic-ai.md) | Research memo on machine-enforceable deployment governance for Catholic AI agent deployment. |
