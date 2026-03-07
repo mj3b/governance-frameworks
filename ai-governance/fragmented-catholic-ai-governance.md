@@ -104,7 +104,7 @@ The standard preserves diocesan authority while providing the solidarity layer t
 
 ## Relationship to the CDCF Vetting Criteria
 
-The [CDCF AI Vetting Criteria](./AI_VETTING_CRITERIA.md) represent the first operational expression of this solidarity layer. The eight criteria, organized across two evaluation gates, establish a shared baseline for what "vetted" means for AI tools submitted to the Catholic Digital Commons Foundation.
+The [CDCF AI Vetting Criteria](./ai-vetting-criteria.md) represent the first operational expression of this solidarity layer. The eight criteria, organized across two evaluation gates, establish a shared baseline for what "vetted" means for AI tools submitted to the Catholic Digital Commons Foundation.
 
 The fragmentation research documented here provides the empirical foundation for why that baseline is urgent. The criteria are designed to be adoptable by any diocese, health system, or Catholic institution regardless of which local governance model - standing council, episcopal decree, educator working group, or other - they operate under.
 
