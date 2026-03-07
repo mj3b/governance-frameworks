@@ -1,10 +1,8 @@
 # Fragmented Catholic AI Governance at Scale
 
 > **Document type:** Research memo
-
 > **Status:** Working draft - U.S.A. C-DART 1 discussion
-
-> **Relationship:** Supplementary research underlying [CDCF AI Vetting Criteria v0.1](./ai-vetting-criteria.md)
+> **Relationship:** Supplementary research underlying [CDCF AI Vetting Criteria v0.1](./AI_VETTING_CRITERIA.md)
 
 ---
 
@@ -82,7 +80,7 @@ The fragmentation is the predictable outcome of subsidiarity operating without a
 
 *Antiqua et Nova* (Dicastery for the Doctrine of the Faith, January 2025, §42) affirms that the responsibility for managing AI wisely "pertains to every level of society, guided by the principle of subsidiarity." Dioceses building their own AI governance structures are doing exactly what subsidiarity asks them to do. The problem is that subsidiarity without a shared canonical foundation produces incompatible local standards that cannot serve institutions - like CommonSpirit or the Catholic Charities network - that operate across diocesan lines.
 
-Catholic Social Teaching is precise on this point. *Mensuram Bonam* (2022) articulates that subsidiarity is considerably more than simple delegation, which often allows larger bodies to retain power and ultimate control. Solidarity, operating alongside subsidiarity, "distributes roles and power horizontally, creating mutual accountability from all levels towards the common good." The CDCF vetting standard is designed to function as exactly that horizontal layer: preserving local authority while establishing the mutual accountability that local authority alone cannot provide.
+Catholic Social Teaching is precise on this point. *Mensuram Bonam* (2022) articulates that subsidiarity is considerably more than simple delegation, which often allows larger bodies to retain power and ultimate control. Authentic subsidiarity "distributes roles and power horizontally, creating mutual accountability from all levels towards the common good." Fragmented diocesan governance models are therefore not simply a failure of coordination; they represent a failure to execute the horizontal mutual accountability that subsidiarity itself requires. The CDCF vetting standard is designed to fulfill that requirement: preserving local authority while establishing the mutual accountability that isolated local action cannot provide.
 
 The Magisterium has provided rich doctrinal grounding for why human dignity, moral agency, and genuine human control over AI matter - *Antiqua et Nova* is precise and substantial on these points. Operational protocols that translate those principles into a shared canonical governance process remain to be developed. A diocese receiving a vendor proposal for its schools or hospitals has principle-level guidance and no procedural framework for acting on it.
 
@@ -97,6 +95,10 @@ The gap between principle and protocol is the specific problem this research add
 A shared vetting standard for Catholic AI tools resolves the fragmentation problem at the point where it is most tractable: the evaluation of tools before deployment.
 
 Rather than requiring every diocese to develop its own evaluation methodology from scratch, a shared standard provides a common baseline that any diocese can adopt, adapt for local context, and apply consistently. Vendors evaluated against the shared standard have assurance of meeting Catholic institutional requirements across diocesan lines. Institutions operating across multiple dioceses - health systems, Catholic Charities networks, school systems - can deploy tools under a single governance framework rather than reconfiguring for every jurisdiction.
+
+The standard also functions as a market safeguard. Pope Leo XIV has demanded that AI governance ensure technology "truly serves the common good, and is not just used to accumulate wealth and power in the hands of a few." A fragmented diocesan landscape is precisely the condition that allows vendors to exploit incompatible standards, accumulating data and market position at the expense of local ministries. A shared canonical vetting standard closes that opening.
+
+*Antiqua et Nova* further establishes that "greater autonomy heightens each person's responsibility across various aspects of communal life." Catholic institutions exercise immense autonomy in American healthcare and education. That autonomy carries a correspondingly serious responsibility to demonstrate that their capacities are used in the service of others. A shared vetting standard is the operational proof that Catholic institutions recognize and act on that responsibility.
 
 The standard preserves diocesan authority while providing the solidarity layer that allows subsidiarity to function coherently in an environment where AI tools routinely cross institutional and jurisdictional boundaries.
 
