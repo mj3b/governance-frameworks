@@ -20,10 +20,10 @@ The documents in this repository are initial working drafts. They are versioned,
 
 | Document &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 |:---|:---|
-| [ai-vetting-criteria.md](./ai-governance/ai-vetting-criteria.md) | Operational vetting criteria for AI tools submitted to the CDCF. Two evaluation gates, eight criteria. The primary policy document. |
-| [fragmented-catholic-ai-governance.md](./ai-governance/fragmented-catholic-ai-governance.md) | Research memo on why shared canonical AI governance standards are urgent across Catholic institutions. |
-| [governance-as-code-catholic-ai.md](./ai-governance/governance-as-code-catholic-ai.md) | Research memo on machine-enforceable deployment governance for Catholic AI agent deployment. |
-| [trusted-synthetic-data-ministry-ai.md](./ai-governance/trusted-synthetic-data-ministry-ai.md) | Research memo on synthetic data infrastructure for ministry-scale AI development across Catholic healthcare, education, and social services. |
+| [ai-vetting-criteria.md](./ai-governance/ai-vetting-criteria.md) | Primary policy document. Two evaluation gates, eight criteria. |
+| [fragmented-catholic-ai-governance.md](./ai-governance/fragmented-catholic-ai-governance.md) | Why shared AI governance standards are urgent across Catholic institutions. |
+| [governance-as-code-catholic-ai.md](./ai-governance/governance-as-code-catholic-ai.md) | Machine-enforceable deployment governance for Catholic AI. |
+| [trusted-synthetic-data-ministry-ai.md](./ai-governance/trusted-synthetic-data-ministry-ai.md) | Synthetic data infrastructure for ministry-scale AI development. |
 
 ---
 
