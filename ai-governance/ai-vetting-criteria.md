@@ -1,7 +1,9 @@
 # CDCF Project Vetting Criteria: AI Tools
 
 > **Version:** v0.1 (draft for community review)
+
 > **Scope:** AI-assisted tools submitted for CDCF incubation and graduation
+
 > **Extensibility:** Scoped to AI tools. The underlying framework is designed for extension to software projects more broadly; a generalized version is anticipated in a subsequent release.
 
 ---
