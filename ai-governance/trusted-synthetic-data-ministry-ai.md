@@ -1,10 +1,10 @@
 # Trusted Synthetic Data for Ministry-Scale AI
 
-> **Document type:** Research memo
-
-> **Status:** Working draft - U.S.A. C-DART 1 discussion
-
-> **Relationship:** Supplementary research underlying [CDCF AI Vetting Criteria v0.1](./ai-vetting-criteria.md)
+| | |
+|:---|:---|
+| **Document type** | Research memo |
+| **Status** | Working draft — U.S.A. C-DART 1 discussion |
+| **Relationship** | Supplementary research underlying [CDCF AI Vetting Criteria v0.1](./ai-vetting-criteria.md) |
 
 ---
 
@@ -45,6 +45,11 @@ Quality validation is the critical governance requirement. A synthetic dataset i
 
 Two market signals establish that synthetic data has crossed from experimental to production-grade infrastructure.
 
+| Signal | Organization | Year | Significance |
+|:---|:---|:---|:---|
+| NVIDIA acquires Gretel | NVIDIA / Gretel | 2025 | $320M+ acquisition positions synthetic data generation as foundational enterprise AI infrastructure, not a niche privacy tool |
+| VA deploys MDClone nationally | Veterans Health Administration | 2020–present | Demonstrates production-scale synthetic health data under federal regulatory oversight |
+
 NVIDIA acquired Gretel, the leading synthetic data generation platform, for more than $320 million in 2025.[^1] NVIDIA's acquisition thesis was explicit: synthetic data is essential infrastructure for AI development in regulated industries where real data is legally inaccessible or practically unavailable at the scale AI training requires. The acquisition positioned synthetic data generation as a foundational capability within NVIDIA's enterprise AI stack rather than a niche privacy tool.
 
 The U.S. Department of Veterans Affairs, through the Veterans Health Administration, has deployed MDClone as a synthetic data engine to support multiple clinical and research use cases.[^2] The VHA deployment demonstrated that synthetic data generation can operate at national health system scale under federal regulatory oversight, with validated fidelity sufficient to support clinical AI development and outcomes research.
@@ -56,6 +61,12 @@ These signals matter for Catholic institutions because they establish that the t
 ## The Catholic Data Paradox
 
 Catholic institutions face an acute version of the AI-data paradox: they hold exactly the data AI needs, and they hold it in a configuration no secular institution can replicate.
+
+| Domain | Scale | Data Type | Legal Protection |
+|:---|:---|:---|:---|
+| **Healthcare** | 650 hospitals · 2,200+ facilities · 1 in 7 U.S. patients · 19M emergency visits/year | EHR, clinical outcomes, demographic data | HIPAA |
+| **Education** | 5,905 schools · 1.68M students · 150,000+ staff | Academic performance, behavioral, family, sacramental records | FERPA |
+| **Social Services & Parishes** | 168 agencies · 28M meals · 295,000 emergency housing placements | Immigration, counseling, housing, case management, parish engagement | Diocesan privacy norms, pastoral trust |
 
 **Catholic healthcare** is the largest group of nonprofit healthcare providers in the United States: 650 hospitals and more than 2,200 total facilities caring for one in seven American patients daily, with approximately 19 million emergency visits and 5.6 million hospital admissions annually.[^3] The three largest Catholic health systems (CommonSpirit Health, Ascension, and Trinity Health) collectively operate more than 370 hospitals with combined revenues exceeding $90 billion.[^3] [^4] This data is protected by HIPAA and is largely inaccessible for cross-institutional AI development without extended IRB processes and data sharing agreements that rarely scale.
 
@@ -70,6 +81,13 @@ The cross-domain overlap is the distinctive asset. A family that receives care a
 ## What Catholic Institutions Could Build
 
 Synthetic versions of Catholic institutional data would unlock AI development that is currently structurally impossible.
+
+| Use Case | Data Source | AI Applications Unlocked |
+|:---|:---|:---|
+| **Healthcare** | Synthetic EHR cohorts across 650 hospitals | Diagnostic AI, clinical operations, multi-system population research |
+| **Education** | Synthetic student records across 5,905 schools | Early-warning systems, retention models, system-wide benchmarking |
+| **Social Services** | Synthetic case data across 168 Charities agencies | Program effectiveness, homelessness prediction, neighborhood vulnerability modeling |
+| **Research Partnerships** | Cross-institutional synthetic cohorts | NIH studies, public health research, minority population outcomes |
 
 **Healthcare.** Synthetic EHR cohorts across 650 hospitals would enable diagnostic AI development, clinical operations optimization, and multi-system research on population patterns without triggering PHI sharing workflows or extended IRB delays.[^3] Catholic hospitals disproportionately serve underrepresented and underserved populations that commercial AI training datasets consistently underrepresent. A synthetic Catholic health data commons would enable AI models trained on populations that actually reflect the communities Catholic healthcare serves.
 
@@ -89,11 +107,11 @@ U.S. Catholic institutions also serve large populations of Latin American descen
 
 A Catholic synthetic data infrastructure operates across three layers that correspond to the same institutional capacity levels described in the governance-as-code memo.
 
-**Infrastructure layer.** Production synthetic data generators (including platforms like NeMo, MDClone, and SAS) deployed into Catholic health systems and other large entities with standard templates and controls for PHI/PII-sensitive pipelines. This layer handles the technical generation and fidelity validation of synthetic datasets. It requires meaningful data engineering capacity and is appropriate for large Catholic health systems and university research centers.
-
-**Governance platform layer.** A Catholic-specific synthetic data governance framework that encodes quality validation standards, ERD alignment requirements, diocesan and USCCB hierarchy compliance, and access-control patterns as reusable policy and process. This is where the CDCF is positioned to make its most distinctive contribution: serving as the steward of the validation standards and certification criteria that make synthetic Catholic data trustworthy for downstream use, rather than operating as a data commons itself.
-
-**Application layer.** Ready-made tools that run on synthetic datasets: diocesan dashboards for education analytics, Catholic Charities program evaluation tools, and parish community health models. These applications consume validated synthetic data without requiring the institutions using them to manage the generation infrastructure directly.
+| Layer | Function | Primary Users | CDCF Role |
+|:---|:---|:---|:---|
+| **Infrastructure** | Production synthetic data generators (NeMo, MDClone, SAS) with PHI/PII-sensitive pipeline controls. Handles technical generation and fidelity validation. | Large health systems and university research centers | Contributes validation specifications |
+| **Governance Platform** | Catholic-specific governance framework encoding quality validation standards, ERD alignment, USCCB compliance, and access-control patterns as reusable policy. | Diocesan governance offices and data stewards | Stewards validation standards and certification criteria |
+| **Application** | Ready-made tools running on synthetic datasets: diocesan education dashboards, Charities program evaluation tools, parish community health models. | Diocesan offices, parishes, small agencies | Provides certified application templates |
 
 ---
 
@@ -113,11 +131,11 @@ This reframes the CDCF's contribution from data infrastructure operator (a role 
 
 The CDCF is positioned to make three specific contributions to Catholic synthetic data infrastructure that require governance expertise rather than data operations.
 
-**Validation standards.** Defining the fidelity and privacy thresholds that a synthetic dataset must meet to be certified as trustworthy for Catholic institutional use. What statistical distance from the source distribution is acceptable? What privacy attack resistance is required? What domain-specific validation criteria apply to health, education, and social services data respectively? These questions require expertise in both data science and Catholic institutional governance, and their answers should be shared standards rather than solved independently by each institution.
-
-**Certification criteria.** Defining what a synthetic data generation process must demonstrate to receive CDCF certification. This parallels the vetting criteria for AI tools: a generation platform that meets CDCF certification criteria gives Catholic institutions assurance that synthetic data produced on that platform meets the shared validation standard.
-
-**Interoperability requirements.** Defining the data standards and schema conventions that allow synthetic datasets generated at different Catholic institutions to be combined or compared for multi-institutional research. This is the technical complement to the governance interoperability that the vetting criteria provide for AI tools.
+| Contribution | What It Defines | Why It Matters |
+|:---|:---|:---|
+| **Validation standards** | Fidelity and privacy thresholds a synthetic dataset must meet for Catholic institutional certification — statistical distance, privacy attack resistance, domain-specific criteria for health, education, and social services | Shared standards prevent each institution from solving the same problem independently |
+| **Certification criteria** | What a synthetic data generation process must demonstrate to receive CDCF certification, paralleling the AI vetting criteria | Gives Catholic institutions assurance that certified platforms produce trustworthy synthetic data |
+| **Interoperability requirements** | Data standards and schema conventions allowing synthetic datasets from different Catholic institutions to be combined or compared for multi-institutional research | Technical complement to governance interoperability the vetting criteria provide for AI tools |
 
 ---
 
