@@ -1,10 +1,10 @@
 # Fragmented Catholic AI Governance at Scale
 
-> **Document type:** Research memo
-
-> **Status:** Working draft - U.S.A. C-DART 1 discussion
-
-> **Relationship:** Supplementary research underlying [CDCF AI Vetting Criteria v0.1](./ai-vetting-criteria.md)
+| | |
+|:---|:---|
+| **Document type** | Research memo |
+| **Status** | Working draft — U.S.A. C-DART 1 discussion |
+| **Relationship** | Supplementary research underlying [CDCF AI Vetting Criteria v0.1](./ai-vetting-criteria.md) |
 
 ---
 
@@ -30,7 +30,7 @@ Catholic institutions serving tens of millions of Americans across healthcare, e
 
 ## Why Catholic Institutions Are Uniquely Exposed
 
-Catholic institutions occupy an unusual position in the American AI governance landscape. They are simultaneously subject to civil regulation, diocesan canonical authority, and the moral theology of the Magisterium. No secular institution faces that combination. A hospital system deploying an AI triage tool must satisfy HIPAA, the FDA's Software as a Medical Device framework, its diocesan bishop's authority over pastoral matters, and Catholic Social Teaching's account of human dignity and the common good — in a single deployment decision.
+Catholic institutions occupy an unusual position in the American AI governance landscape. They are simultaneously subject to civil regulation, diocesan canonical authority, and the moral theology of the Magisterium. No secular institution faces that combination. A hospital system deploying an AI triage tool must satisfy HIPAA, the FDA's Software as a Medical Device framework, its diocesan bishop's authority over pastoral matters, and Catholic Social Teaching's account of human dignity and the common good, all in a single deployment decision.
 
 The U.S. and China regulatory frameworks for AI are diverging in ways that compound this exposure. U.S. efforts emphasize system- and risk-based regulation, while Chinese rules place relatively greater emphasis on content, security, and outputs.[^1] Catholic institutions operating internationally, and those receiving federal funding domestically, face both frameworks without clarity on how to reconcile them with canonical requirements.
 
@@ -42,7 +42,13 @@ The result is that Catholic institutions are caught between competing regulatory
 
 The fragmentation is already producing concrete operational problems across the three primary institutional domains.
 
-**Healthcare.** CommonSpirit Health operates in 24 states across multiple dioceses.[^2] A single AI-assisted triage or clinical decision support tool cannot be deployed uniformly across that system because each diocese it operates in carries different consent requirements, different pastoral boundary definitions, and different data governance expectations developed independently. The same tool, the same patients, the same mission — reconfigured or legally blocked every time it crosses a diocesan line.
+| Domain | Scale | Fragmentation Impact |
+|:---|:---|:---|
+| **Healthcare** | CommonSpirit: 24 states, multiple dioceses | Same tool, same patients, same mission — blocked or reconfigured at every diocesan line |
+| **Education** | 5,905 Catholic schools nationally | Vendors face dozens of incompatible standards or default to generic secular products |
+| **Social Services** | 168 Catholic Charities agencies | Cannot share tools, compare outcomes, or build on each other's governance work |
+
+**Healthcare.** CommonSpirit Health operates in 24 states across multiple dioceses.[^2] A single AI-assisted triage or clinical decision support tool cannot be deployed uniformly across that system because each diocese it operates in carries different consent requirements, different pastoral boundary definitions, and different data governance expectations developed independently. The same tool, the same patients, the same mission, reconfigured or legally blocked every time it crosses a diocesan line.
 
 **Education.** A vendor trying to serve all 5,905 Catholic schools in the United States[^3] faces dozens of incompatible responsible Catholic AI evaluation standards, each developed by a different diocesan office operating without reference to the others. The vendor's options are to build bespoke configurations for every diocese, which is expensive and unsustainable at scale, or to ignore Catholic-specific requirements entirely and deploy a generic secular product. The second outcome is precisely what Catholic AI governance exists to prevent.
 
@@ -54,13 +60,19 @@ The fragmentation is already producing concrete operational problems across the 
 
 Three U.S. dioceses built formal AI governance structures between 2024 and 2026. Each represents a serious, good-faith effort. None was built with reference to the others, and the three models are structurally incompatible.
 
-**Diocese of Orange (2024).**[^5] Established a standing Diocesan AI Council composed of the Vicar General, IT Director, HR, Communications, and parish pastors. The Council maintains a living document guidebook and meets quarterly to review AI developments across diocesan operations, ministry, and education. Governance model: standing council with recurring review cadence.
+| Diocese | Year | Governance Model | Instrument |
+|:---|:---|:---|:---|
+| Diocese of Orange | 2024 | Standing council with quarterly review | Living guidebook document |
+| Diocese of Biloxi | Effective Jan 1, 2026 | Episcopal decree (binding canonical instrument) | Signed by Bishop Kihneman |
+| Diocese of Arlington | June 2025 | Educator-led working group | School-specific policy framework |
 
-**Diocese of Biloxi (effective January 1, 2026).**[^6] Issued an Episcopal Decree signed by Bishop Kihneman — a binding canonical instrument applying to all clergy, religious, lay employees, and volunteers across the diocese. This appears to be the first formal episcopal AI decree in the United States. Governance model: canonical decree with bishop as binding authority.
+**Diocese of Orange (2024).**[^5] Established a standing Diocesan AI Council composed of the Vicar General, IT Director, HR, Communications, and parish pastors. The Council maintains a living document guidebook and meets quarterly to review AI developments across diocesan operations, ministry, and education.
 
-**Diocese of Arlington (June 2025).**[^7] Formed a 14-person working group of Catholic school educators who developed an AI policy framework distributed to Catholic schools across the diocese, presented at a regional conference in August 2025. Governance model: educator-led working group with school-specific application.
+**Diocese of Biloxi (effective January 1, 2026).**[^6] Issued an Episcopal Decree signed by Bishop Kihneman, a binding canonical instrument applying to all clergy, religious, lay employees, and volunteers across the diocese. This appears to be the first formal episcopal AI decree in the United States.
 
-Three governance models — standing council, episcopal decree, educator working group — with no shared evaluation standards, no common definition of what constitutes a permissible AI application, and no coordination mechanism. A vendor evaluated favorably under Orange's council process has no assurance of meeting Biloxi's episcopal requirements or Arlington's school-specific framework.
+**Diocese of Arlington (June 2025).**[^7] Formed a 14-person working group of Catholic school educators who developed an AI policy framework distributed to Catholic schools across the diocese, presented at a regional conference in August 2025.
+
+Three governance models with no shared evaluation standards, no common definition of what constitutes a permissible AI application, and no coordination mechanism. A vendor evaluated favorably under Orange's council process has no assurance of meeting Biloxi's episcopal requirements or Arlington's school-specific framework.
 
 ---
 
@@ -80,11 +92,11 @@ The 3–6 month window for establishing shared baseline criteria before fragment
 
 The fragmentation is the predictable outcome of subsidiarity operating without a solidarity layer, produced by good-faith institutional actors working independently rather than by governance failure.
 
-*Antiqua et Nova* (§42) affirms that the responsibility for managing AI wisely "pertains to every level of society, guided by the principle of subsidiarity."[^9] Dioceses building their own AI governance structures are doing exactly what subsidiarity asks them to do. The problem is that subsidiarity without a shared canonical foundation produces incompatible local standards that cannot serve institutions — like CommonSpirit or the Catholic Charities network — that operate across diocesan lines.
+*Antiqua et Nova* (§42) affirms that the responsibility for managing AI wisely "pertains to every level of society, guided by the principle of subsidiarity."[^9] Dioceses building their own AI governance structures are doing exactly what subsidiarity asks them to do. The problem is that subsidiarity without a shared canonical foundation produces incompatible local standards that cannot serve institutions like CommonSpirit or the Catholic Charities network, which operate across diocesan lines.
 
 Catholic Social Teaching is precise on this point. *Mensuram Bonam* articulates that subsidiarity is considerably more than simple delegation, which often allows larger bodies to retain power and ultimate control. Authentic subsidiarity "distributes roles and power horizontally, creating mutual accountability from all levels towards the common good."[^10] Fragmented diocesan governance models are therefore not simply a failure of coordination; they represent a failure to execute the horizontal mutual accountability that subsidiarity itself requires. The CDCF vetting standard is designed to fulfill that requirement: preserving local authority while establishing the mutual accountability that isolated local action cannot provide.
 
-The Magisterium has provided rich doctrinal grounding for why human dignity, moral agency, and genuine human control over AI matter — *Antiqua et Nova* is precise and substantial on these points.[^9] Operational protocols that translate those principles into a shared canonical governance process remain to be developed. A diocese receiving a vendor proposal for its schools or hospitals has principle-level guidance and no procedural framework for acting on it.
+The Magisterium has provided rich doctrinal grounding for why human dignity, moral agency, and genuine human control over AI matter (*Antiqua et Nova* is precise and substantial on these points).[^9] Operational protocols that translate those principles into a shared canonical governance process remain to be developed. A diocese receiving a vendor proposal for its schools or hospitals has principle-level guidance and no procedural framework for acting on it.
 
 The USCCB's joint letter on AI principles warns explicitly that automated decision-making systems used in employment screening, healthcare, public benefit screening, and related domains "can reinforce existing biases or introduce a utilitarian approach devoid of necessary human considerations, with potentially devastating consequences."[^11] The letter affirms the importance of ethical principles and reasonable policy, and it, too, stops short of a shared operational standard.
 
@@ -96,7 +108,7 @@ The gap between principle and protocol is the specific problem this research add
 
 A shared vetting standard for Catholic AI tools resolves the fragmentation problem at the point where it is most tractable: the evaluation of tools before deployment.
 
-Rather than requiring every diocese to develop its own evaluation methodology from scratch, a shared standard provides a common baseline that any diocese can adopt, adapt for local context, and apply consistently. Vendors evaluated against the shared standard have assurance of meeting Catholic institutional requirements across diocesan lines. Institutions operating across multiple dioceses — health systems, Catholic Charities networks, school systems — can deploy tools under a single governance framework rather than reconfiguring for every jurisdiction.
+Rather than requiring every diocese to develop its own evaluation methodology from scratch, a shared standard provides a common baseline that any diocese can adopt, adapt for local context, and apply consistently. Vendors evaluated against the shared standard have assurance of meeting Catholic institutional requirements across diocesan lines. Institutions operating across multiple dioceses, including health systems, Catholic Charities networks, and school systems, can deploy tools under a single governance framework rather than reconfiguring for every jurisdiction.
 
 The standard also functions as a market safeguard. Pope Leo XIV has demanded that AI governance ensure technology "truly serves the common good, and is not just used to accumulate wealth and power in the hands of a few."[^12] A fragmented diocesan landscape is precisely the condition that allows vendors to exploit incompatible standards, accumulating data and market position at the expense of local ministries. A shared canonical vetting standard closes that opening.
 
@@ -110,7 +122,7 @@ The standard preserves diocesan authority while providing the solidarity layer t
 
 The [CDCF AI Vetting Criteria](./ai-vetting-criteria.md) represent the first operational expression of this solidarity layer. The eight criteria, organized across two evaluation gates, establish a shared baseline for what "vetted" means for AI tools submitted to the Catholic Digital Commons Foundation.
 
-The fragmentation research documented here provides the empirical foundation for why that baseline is urgent. The criteria are designed to be adoptable by any diocese, health system, or Catholic institution regardless of which local governance model — standing council, episcopal decree, educator working group, or other — they operate under.
+The fragmentation research documented here provides the empirical foundation for why that baseline is urgent. The criteria are designed to be adoptable by any diocese, health system, or Catholic institution regardless of which local governance model they operate under, whether standing council, episcopal decree, educator working group, or other.
 
 ---
 
