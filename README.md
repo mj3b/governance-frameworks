@@ -1,29 +1,61 @@
 # Governance Frameworks
 
-> A working repository for governance documentation supporting the Catholic Digital Commons Foundation (CDCF) vetting and project management processes.
+> *"Before accepting a project as incubating, the CDCF must determine whether its scope meets the requirements for a CDCF Project — respectful of human dignity, conducive to human flourishing, and of potential service to the Church at a wide level."*
+>
+> — Father John Romano D'Orazio, Vice Chair and Lead Developer, CDCF
+
+A working repository for governance documentation supporting the **Catholic Digital Commons Foundation (CDCF)** vetting and project management processes.
 
 ---
 
-## Purpose
+## What This Repository Is
 
-This repository holds the policy frameworks, evaluation criteria, and research documentation that inform how the CDCF reviews, incubates, and graduates technology projects submitted for consideration.
+Catholic institutions serving tens of millions of people across healthcare, education, social services, and parish life are deploying AI without a shared, canonical standard for what responsible Catholic deployment looks like. This repository addresses that gap.
 
-Father D'Orazio described the Foundation's need precisely: before accepting a project as incubating, the CDCF must determine whether its scope meets the requirements for a CDCF Project, specifically that it is respectful of human dignity, conducive to human flourishing, and of potential service to the Church at a wide level. Before a project graduates, it must demonstrate clear documentation, security best practices, project governance, and readiness to support the institutions it serves.
-
-The documents in this repository are initial working drafts. They are versioned, iterable, and open to contribution from the CDCF community, member dioceses, and Catholic technology practitioners worldwide.
+It holds the policy frameworks, evaluation criteria, and research documentation that inform how the CDCF reviews, incubates, and graduates technology projects submitted for consideration. The documents are initial working drafts: versioned, iterable, and open to contribution from the CDCF community, member dioceses, and Catholic technology practitioners worldwide.
 
 ---
 
-## Contents
+## The Two-Gate Framework
+
+Every technology project submitted to the CDCF passes through two evaluation gates before reaching active project status.
+
+| Gate | Stage | What It Evaluates |
+|:---|:---|:---|
+| **Gate 1** | Incubation Acceptance | Mission alignment · Human accountability architecture · Transparency of scope · Independent validation · Subgroup performance · Deployment governance specification |
+| **Gate 2** | Graduation to Active Status | Documentation for independent deployment · Data stewardship · Governance, maintenance, and subsidiarity compatibility |
+
+A project satisfying Gate 1 in full enters incubation. Graduation requires that Gate 1 criteria remain satisfied and that Gate 2 requirements are met. The gate structure applies to AI tools now and is designed for extension to technology projects more broadly.
+
+---
+
+## Document Stack
 
 ### AI Governance
 
-| Document | Description &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-|:---|:---|
-| [ai-vetting-criteria.md](./ai-governance/ai-vetting-criteria.md) | Operational vetting criteria for AI tools submitted to the CDCF. Two evaluation gates, eight criteria. The primary policy document. |
-| [fragmented-catholic-ai-governance.md](./ai-governance/fragmented-catholic-ai-governance.md) | Research memo on why shared AI governance standards are urgent across Catholic institutions. |
-| [governance-as-code-catholic-ai.md](./ai-governance/governance-as-code-catholic-ai.md) | Research memo on machine-enforceable deployment governance for Catholic AI agent deployment. |
-| [trusted-synthetic-data-ministry-ai.md](./ai-governance/trusted-synthetic-data-ministry-ai.md) | Research memo on synthetic data infrastructure for ministry-scale AI development across Catholic healthcare, education, and social services. |
+| Document | Type | Description |
+|:---|:---|:---|
+| [ai-vetting-criteria.md](./ai-governance/ai-vetting-criteria.md) | **Policy** | Operational vetting criteria for AI tools submitted to the CDCF. Two evaluation gates, eight criteria. The primary policy document. |
+| [fragmented-catholic-ai-governance.md](./ai-governance/fragmented-catholic-ai-governance.md) | Research memo | Why shared AI governance standards are urgent: three dioceses building in isolation, an accelerating fragmentation curve, and what a shared canonical baseline resolves. |
+| [governance-as-code-catholic-ai.md](./ai-governance/governance-as-code-catholic-ai.md) | Research memo | Machine-enforceable deployment governance: turning policy documents into version-controlled schemas wired into deployment pipelines as hard gates. |
+| [trusted-synthetic-data-ministry-ai.md](./ai-governance/trusted-synthetic-data-ministry-ai.md) | Research memo | Synthetic data infrastructure for ministry-scale AI development across Catholic healthcare, education, and social services. |
+
+The three research memos form an integrated argument. The fragmentation memo establishes why shared standards are urgent. The governance-as-code memo provides the deployment enforcement architecture. The trusted synthetic data memo provides the data infrastructure that allows Catholic institutions to develop AI worthy of that governance architecture.
+
+---
+
+## Magisterial Grounding
+
+| Source | Issuing Body | Year |
+|:---|:---|:---|
+| *Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence* | Dicastery for the Doctrine of the Faith and Dicastery for Culture and Education | January 2025 |
+| *Joint Letter on Artificial Intelligence: Principles and Priorities* | United States Conference of Catholic Bishops | June 2025 |
+| Address on AI and Care for Our Common Home | Pope Leo XIV | December 2025 |
+| Address to the Builders AI Forum | Pope Leo XIV | November 2025 |
+| *Rome Call for AI Ethics* | Pontifical Academy of Life | 2020 |
+| *Mensuram Bonam: Faith-Based Measures for Catholic Investors* | Pontifical Academy of Social Sciences | 2022 |
+| Statement on the EU Artificial Intelligence Act | COMECE | 2024 |
+| *Inteligencia Artificial: Una mirada pastoral desde América Latina y el Caribe* | CELAM | May 2025 |
 
 ---
 
@@ -50,8 +82,7 @@ Please open an issue before submitting a significant revision so the community c
 
 The AI governance documents were developed by **Mark Julius Banasihan** ([@mj3b](https://github.com/mj3b)), a lay Catholic AI governance researcher, in dialogue with U.S.A. C-DART 1 and submitted to the CDCF in March 2026 at the invitation of Father John Romano D'Orazio.
 
-Research is grounded in *Antiqua et Nova* (DDF/DCE, January 2025), the USCCB AI Principles and Priorities Letter (June 2025), the Rome Call for AI Ethics (2020), *Mensuram Bonam* (Pontifical Academy of Social Sciences, 2022), Pope Leo XIV's address on AI and the Common Home (December 2025), COMECE guidance on the EU AI Act, and related Magisterial sources.
-
 ---
 
-*Catholic Digital Commons Foundation · https://catholicdigitalcommons.org*
+*Catholic Digital Commons Foundation · [catholicdigitalcommons.org](https://catholicdigitalcommons.org)*
+
