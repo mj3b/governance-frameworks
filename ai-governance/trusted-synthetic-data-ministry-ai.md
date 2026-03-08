@@ -133,12 +133,11 @@ The three research memos, fragmentation, governance-as-code, and trusted synthet
 
 ## References
 
-- NVIDIA Corporation. Acquisition of Gretel. 2025.
-- U.S. Department of Veterans Affairs. MDClone deployment across VA facilities. 2024-2025.
-- National Catholic Educational Association. *United States Catholic Elementary and Secondary Schools 2023-2024: Annual Statistical Report.* 2024.
+- NVIDIA Corporation. Acquisition of Gretel. 2025. https://techcrunch.com/2025/03/19/nvidia-reportedly-acquires-synthetic-data-startup-gretel/
+- U.S. Department of Veterans Affairs. MDClone deployment across VA facilities. 2024-2025. https://news.va.gov/81908/synthetic-data-improve-veteran-care/
+- National Catholic Educational Association. United States Catholic Elementary and Secondary Schools 2023-2024: The Annual Statistical Report on Schools, Enrollment and Staffing. Arlington, VA: NCEA, 2024. https://www.ncea.org/NCEA/NCEA/Who_We_Are/About_Catholic_Schools/Catholic_School_Data/Catholic_School_Data.aspx
 - Catholic Health Association of the United States. *Catholic Health Care in the United States.* 2024. https://www.chausa.org/about/facts---statistics
-- Catholic Charities USA. *2024 Annual Survey.* 2024.
-- CommonSpirit Health. Annual Report 2024.
+- Catholic Charities USA. Pathways Forward: 2024 Annual Report. Alexandria, VA: Catholic Charities USA, 2025. https://www.catholiccharitiesusa.org/publications/2024-annual-report/
+- CommonSpirit Health. Audited Consolidated Financial Statements as of and for the Years Ended June 30, 2024 and 2023. Chicago: CommonSpirit Health, 2024. https://www.commonspirit.org/content/dam/shared/en/pdfs/investor-resources/2024-CommonSpirit-Health-Annual-Report.SECURED.pdf
 - Dicastery for the Doctrine of the Faith. *Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence.* Vatican, January 2025. https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html
-- CELAM. Latin American and Caribbean Episcopal Council. Statements on AI, Human Dignity, and the Common Good.
-- USCCB. Joint Letter on AI Principles and Priorities. June 2025. https://www.usccb.org
+- USCCB. Joint Letter on AI Principles. June 2025. https://www.usccb.org/resources/joint-letter-artificial-intelligence-principles-and-priorities
