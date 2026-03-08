@@ -20,10 +20,10 @@ The documents in this repository are initial working drafts. They are versioned,
 
 | Document | Description &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |:---|:---|
-| [ai-vetting-criteria.md](./ai-governance/ai-vetting-criteria.md) | Operational vetting criteria for AI tools submitted to the CDCF. Two evaluation gates, eight criteria. The primary policy document. |
-| [fragmented-catholic-ai-governance.md](./ai-governance/fragmented-catholic-ai-governance.md) | Research memo on why shared canonical AI governance standards are urgent across Catholic institutions. |
-| [governance-as-code-catholic-ai.md](./ai-governance/governance-as-code-catholic-ai.md) | Research memo on machine-enforceable deployment governance for Catholic AI agent deployment.  |
-| [trusted-synthetic-data-ministry-ai.md](./ai-governance/trusted-synthetic-data-ministry-ai.md) | Research memo on synthetic data infrastructure for ministry-scale AI development across Catholic healthcare, education, and social services. |
+| [ai-vetting-criteria.md](./ai-governance/ai-vetting-criteria.md) | Primary policy document. Two evaluation gates, eight criteria. |
+| [fragmented-catholic-ai-governance.md](./ai-governance/fragmented-catholic-ai-governance.md) | Why shared AI governance standards are urgent across Catholic institutions. |
+| [governance-as-code-catholic-ai.md](./ai-governance/governance-as-code-catholic-ai.md) | Machine-enforceable deployment governance for Catholic AI. |
+| [trusted-synthetic-data-ministry-ai.md](./ai-governance/trusted-synthetic-data-ministry-ai.md) | Synthetic data infrastructure for ministry-scale AI development. |
 
 ---
 
@@ -50,7 +50,7 @@ Please open an issue before submitting a significant revision so the community c
 
 The AI governance documents were developed by **Mark Julius Banasihan** ([@mj3b](https://github.com/mj3b)), a lay Catholic AI governance researcher, in dialogue with U.S.A. C-DART 1 and submitted to the CDCF in March 2026 at the invitation of Father John Romano D'Orazio.
 
-Research is grounded in *Antiqua et Nova* (DDF/DCE, January 2025), the USCCB AI Principles and Priorities Letter (June 2025), the Rome Call for AI Ethics (2020), and related Magisterial sources.
+Research is grounded in *Antiqua et Nova* (DDF/DCE, January 2025), the USCCB AI Principles and Priorities Letter (June 2025), the Rome Call for AI Ethics (2020), *Mensuram Bonam* (Pontifical Academy of Social Sciences, 2022), Pope Leo XIV's address on AI and the Common Home (December 2025), COMECE guidance on the EU AI Act, and related Magisterial sources.
 
 ---
 
