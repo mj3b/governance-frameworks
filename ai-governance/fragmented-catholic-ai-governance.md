@@ -120,8 +120,8 @@ The fragmentation research documented here provides the empirical foundation for
 - Dicastery for the Doctrine of the Faith. *Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence.* Vatican, January 2025. https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html
 - *Mensuram Bonam: Faith-Based Measures for Catholic Investors.* Pontifical Academy of Social Sciences, 2022. https://www.vatican.va/roman_curia/pontifical_academies/acdscien/documents/mensuram-bonam_en.html
 - USCCB. Joint Letter on AI Principles. June 2025. https://www.usccb.org
-- Diocese of Orange. Diocesan AI Council Guidelines. 2024.
-- Diocese of Biloxi. Episcopal Decree on Artificial Intelligence. Effective January 1, 2026.
-- Diocese of Arlington. Catholic Schools AI Policy Framework. June 2025.
-- Umbrello, S. "Pope Leo XIV and the New Social Questions of Artificial Intelligence." *The Linacre Quarterly,* 92(3), 2025.
+- Diocese of Orange. Diocesan AI Council Guidelines. 2024. https://www.rcbo.org/ministry/artificial-intelligence-ai-council/
+- Diocese of Biloxi. Episcopal Decree on Artificial Intelligence. Effective January 1, 2026. https://biloxidiocese.org/officials
+- Diocese of Arlington. Catholic Schools AI Policy Framework. June 2025. https://www.catholicherald.com/article/local/catholic-schools-take-initiative-in-ai-challenge/
+- Umbrello, S. "Pope Leo XIV and the New Social Questions of Artificial Intelligence." *The Linacre Quarterly,* 92(3), 2025. https://journals.sagepub.com/doi/10.1177/00243639251358893
 - America Magazine. "The real lesson behind the 'Father Justin' AI priest debacle." April 26, 2024. https://www.americamagazine.org/faith/2024/04/26/father-justin-catholic-answers-ai-247808
