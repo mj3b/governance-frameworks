@@ -18,7 +18,7 @@
 6. [Honest Assessment of Institutional Readiness](#honest-assessment-of-institutional-readiness)
 7. [What Catholic Institutions Can Do Now](#what-catholic-institutions-can-do-now)
 8. [Relationship to the CDCF Vetting Criteria](#relationship-to-the-cdcf-vetting-criteria)
-9. [References](#references)
+9. [Bibliography](#bibliography)
 
 ---
 
@@ -32,7 +32,7 @@ Governance-as-code is the practice of turning those policy documents into machin
 
 ## What Governance-as-Code Is
 
-In a governance-as-code architecture, policy requirements are expressed as version-controlled schemas, typically JSON or YAML, that define exactly what an AI system must demonstrate before it can reach production. When a developer attempts to deploy an agent, the deployment pipeline calls those schemas as hard gates.
+In a governance-as-code architecture, policy requirements are expressed as version-controlled schemas — typically JSON or YAML — that define exactly what an AI system must demonstrate before it can reach production. When a developer attempts to deploy an agent, the deployment pipeline calls those schemas as hard gates.
 
 The gate logic is deterministic. Pass all gates and the agent deploys. Fail any gate and it does not. Every decision, pass or fail, is logged in an immutable audit trail that regulators, diocesan authorities, or institutional leadership can examine after the fact.
 
@@ -40,7 +40,11 @@ The schemas themselves define the governance criteria: what evidence of safety t
 
 This is distinct from using AI to govern AI. The gate decision in a governance-as-code architecture is deterministic: a schema either passes or it does not, based on explicit criteria defined in advance by human authorities. AI can assist with evidence synthesis and risk surfacing within the pipeline, but the gate logic itself remains under human-defined, machine-enforced control. This distinction matters because an AI-governed pipeline requires governance of its own, creating a regress that deterministic schema enforcement avoids.
 
-The Commission of the Bishops' Conferences of the European Union (COMECE) declares that evaluating AI from an ethical perspective "requires internal control principles and risk assessment in addition to legislation."[^6] Governance-as-code is the direct instantiation of those mandated internal control principles, translating ethical evaluation from a periodic review activity into a continuous, enforceable infrastructure requirement.
+Researchers studying multi-agent system failures have identified 14 distinct failure modes across three categories — system design issues, inter-agent misalignment, and task verification breakdowns — underscoring the structural importance of deterministic gate logic rather than agent-mediated compliance review.[^1] Empirical survey data from 306 AI practitioners across 26 domains confirms that reliability remains the top deployment challenge, with 68 percent of production agents executing ten or fewer steps before human intervention is required.[^2] These findings argue for governance architectures in which human-defined, machine-enforced gates are the primary control mechanism rather than agent judgment.
+
+A further structural concern is the compliance gap between regulatory intent and deployment practice. Current AI governance frameworks — including California SB 53, the New York RAISE Act, the U.S. AIREA, and EU AI Act GPAI obligations — share three recurring gaps: scope ambiguity in defining covered systems, point-in-time compliance requirements that fail to address systems that evolve after initial approval, and information asymmetries between regulators and deploying institutions.[^3] Governance-as-code directly addresses all three: schema definitions establish scope with precision, version-controlled schemas evolve with the system they govern, and immutable audit trails close the information gap.
+
+The Commission of the Bishops' Conferences of the European Union (COMECE) affirms that evaluating AI from an ethical perspective "requires internal control principles and risk assessment in addition to legislation."[^4] Governance-as-code is the direct instantiation of those mandated internal control principles, translating ethical evaluation from a periodic review activity into a continuous, enforceable infrastructure requirement.
 
 ---
 
@@ -48,13 +52,13 @@ The Commission of the Bishops' Conferences of the European Union (COMECE) declar
 
 The fragmentation problem documented in the companion memo on Catholic AI governance at scale is fundamentally a governance encoding problem. Each diocese is expressing its Catholic AI values in a different format, at a different level of specificity, for different audiences. Orange wrote a council charter. Biloxi wrote a decree. Arlington wrote school policy. None of those instruments are machine-readable. None of them can be automatically validated against. A vendor can acknowledge all three documents and deploy a non-compliant system anyway, because the documents have no technical enforcement mechanism.
 
-Governance-as-code changes that structural relationship. A shared canonical governance schema, a baseline set of machine-executable policies encoding the principles of *Antiqua et Nova*, the USCCB AI principles, and the Ethical and Religious Directives into version-controlled, reusable specifications, would let any diocese adopt the shared baseline and extend it with local requirements. Subsidiarity is preserved because local authority still governs local decisions. Solidarity is achieved because every institution operating on the shared baseline is interoperable.
+Governance-as-code changes that structural relationship. A shared canonical governance schema — a baseline set of machine-executable policies encoding the principles of *Antiqua et Nova*,[^5] the USCCB AI principles,[^6] and the Ethical and Religious Directives into version-controlled, reusable specifications — would let any diocese adopt the shared baseline and extend it with local requirements. Subsidiarity is preserved because local authority still governs local decisions. Solidarity is achieved because every institution operating on the shared baseline is interoperable.
 
 A vendor serving Catholic schools would face one canonical schema with optional diocesan extensions rather than dozens of incompatible checklists. A Catholic hospital system operating across diocesan lines could deploy uniformly because the governance infrastructure is compatible across jurisdictions. The governance becomes as portable as the tools it governs.
 
-The EU AI Act, with key obligations for high-risk AI taking effect by 2026, creates structural demand for auditable deployment governance in high-risk AI categories. Catholic healthcare, education, and social services operate squarely in those categories. The regulatory pressure is arriving regardless of whether Catholic institutions have prepared for it.
+The EU AI Act, with key obligations for high-risk AI systems taking effect in 2026, creates structural demand for auditable deployment governance in high-risk AI categories.[^7] Catholic healthcare, education, and social services operate squarely in those categories. The regulatory pressure is arriving regardless of whether Catholic institutions have prepared for it.
 
-The *Rome Call for AI Ethics* demands that principles and values be instilled into a framework that "acts as a point of reference for digital ethics, guiding our actions and promoting the use of technology to benefit humanity."[^7] The governance platform layer of this architecture directly answers that call, creating a shared, tangible reference point for digital ethics that is enforceable across Catholic institutional boundaries rather than aspirational.
+The *Rome Call for AI Ethics* demands that principles and values be instilled into a framework that "acts as a point of reference for digital ethics, guiding our actions and promoting the use of technology to benefit humanity."[^8] The governance platform layer of this architecture directly answers that call, creating a shared, tangible reference point for digital ethics that is enforceable across Catholic institutional boundaries rather than aspirational.
 
 ---
 
@@ -62,7 +66,7 @@ The *Rome Call for AI Ethics* demands that principles and values be instilled in
 
 A mature governance-as-code architecture for Catholic AI deployment operates across three layers, each serving a distinct institutional function.
 
-**Infrastructure layer.** CI/CD pipeline hooks, Kubernetes admission controllers, and deployment gate logic. This is where schemas execute as hard gates and where audit trails are generated. Developers interact with this layer. It is invisible to most institutional leadership but is the enforcement mechanism that gives the other layers their teeth.
+**Infrastructure layer.** CI/CD pipeline hooks, Kubernetes admission controllers, and deployment gate logic. This is where schemas execute as hard gates and where audit trails are generated. Developers interact with this layer. It is invisible to most institutional leadership but is the enforcement mechanism that gives the other layers their operational force.
 
 **Governance platform layer.** The schema library itself: version-controlled policy specifications, risk classification logic, and the canonical Catholic governance baseline that dioceses and institutions can adopt and extend. This is where Catholic moral theology, canonical requirements, and regulatory frameworks are encoded as machine-readable criteria. The CDCF is positioned to steward this layer as the shared, community-maintained standard for Catholic AI deployment governance.
 
@@ -74,13 +78,13 @@ These three layers correspond directly to the three levels of institutional capa
 
 ## The Gate Decision as Primary Artifact
 
-The most significant design principle in this framework is that the gate decision itself, the go, conditional-go, no-go, or defer determination, is treated as a first-class artifact rather than a byproduct of the review process.
+The most significant design principle in this framework is that the gate decision itself — the go, conditional-go, no-go, or defer determination — is treated as a first-class artifact rather than a byproduct of the review process.
 
 A gate decision artifact captures the specific evidence assembled, the confidence levels assigned, the gaps identified, the named human decision owner, the rationale for the outcome, and the conditions under which the decision was made. It is immutable once recorded. It is the document that answers the regulator's question, the bishop's question, and the affected person's question: why was this system deployed, under whose authority, and on what basis.
 
-This design directly reflects the canonical standard established in Canon 1609, which requires that deliberative processes produce written conclusions with reasons in law and in fact, and that the capacity for review and appeal be preserved. A gate decision artifact is the technical implementation of that canonical requirement.
+This design directly reflects the canonical standard established in Canon 1609, which requires that deliberative processes produce written conclusions with reasons in law and in fact, and that the capacity for review and appeal be preserved.[^9] A gate decision artifact is the technical implementation of that canonical requirement.
 
-The immutability of the audit trail also serves a specifically Catholic institutional concern. The USCCB warns that AI can be misused to "undermine the dignity of persons and respect for the truth" through the manipulation of information.[^2] An immutable gate decision record ensures that if a deployed system begins generating falsehoods or utilitarian biases, institutional accountability is clear, traceable, and preserved for review.
+The immutability of the audit trail also serves a specifically Catholic institutional concern. The USCCB warns that AI can be misused to "undermine the dignity of persons and respect for the truth" through the manipulation of information.[^6] An immutable gate decision record ensures that if a deployed system begins generating falsehoods or utilitarian biases, institutional accountability is clear, traceable, and preserved for review.
 
 The four decision states carry distinct implications. A **go** decision records that all governance criteria were satisfied and deployment is authorized. A **conditional-go** records that deployment is authorized subject to specific conditions that must be satisfied within a defined timeframe, typically used when independent validation is pending. A **no-go** records that one or more criteria fell short of requirements and deployment is blocked, with the specific criteria and evidence gaps documented. A **defer** records that the decision requires escalation to a higher authority before proceeding, and specifies which authority and why.
 
@@ -88,7 +92,7 @@ The four decision states carry distinct implications. A **go** decision records 
 
 ## Honest Assessment of Institutional Readiness
 
-Full technical implementation of governance-as-code at the infrastructure layer is beyond the current capacity of most Catholic institutions, and overstating that capacity would produce the kind of governance credibility gap this framework is designed to prevent. Most Catholic institutions, including well-resourced dioceses and health systems, currently operate at the application layer at best. They have policy documents. Some have review committees. Very few have version-controlled governance schemas. None, to the knowledge of this research, have canonical Catholic governance schemas embedded as hard gates in CI/CD deployment pipelines.
+Full technical implementation of governance-as-code at the infrastructure layer is beyond the current capacity of most Catholic institutions, and overstating that capacity would produce the kind of governance credibility gap this framework is designed to prevent. Most Catholic institutions — including well-resourced dioceses and health systems — currently operate at the application layer at best. They have policy documents. Some have review committees. Very few have version-controlled governance schemas. None, to the knowledge of this research, have canonical Catholic governance schemas embedded as hard gates in CI/CD deployment pipelines.
 
 That gap is the opportunity, and it is the reason the CDCF Vetting Criteria are structured as they are. Criterion 6 requires a written, reviewable governance specification and architectural compatibility with future enforcement. Full infrastructure-layer implementation is aspirational at the incubation stage. The governance specification written today becomes the schema encoded tomorrow. The criteria are designed to build institutional capacity progressively, meeting institutions at their current maturity rather than requiring capabilities still to be developed.
 
@@ -120,15 +124,22 @@ Together, Criteria 6 and 8 establish the governance specification requirements t
 
 ---
 
-## References
+## Bibliography
 
-- Dicastery for the Doctrine of the Faith. *Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence.* Vatican, January 2025. https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html
-- USCCB. Joint Letter on AI Principles. June 2025. https://www.usccb.org/resources/joint-letter-artificial-intelligence-principles-and-priorities
-- Code of Canon Law, Canon 1609. https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib7-cann1501-1670_en.html
-- European Union. EU AI Act. August 2024, full implementation August 2026. https://artificialintelligenceact.eu
-- COMECE. Statement on the EU Artificial Intelligence Act. https://church.mt/comece-on-the-artificial-intelligence-act-it-does-justice-to-the-ethical-foundations-of-the-eu/
-- Rome Call for AI Ethics. 2020. https://www.vatican.va/content/francesco/en/speeches/2020/february/documents/papa-francesco_20200228_eticaartificiale.html
-- Cemri, M. et al. "Why Do Multi-Agent LLM Systems Fail?" 2025. https://arxiv.org/abs/2503.13657
-- Pan, L. et al. "Measuring Agents in Production." 2025. https://arxiv.org/abs/2512.04123
-- Kwon, J. and Casper, S. "Internal Deployment Gaps in AI Regulation." 2026. https://arxiv.org/abs/2601.08005
+[^1]: Mert Cemri, Melissa Z. Pan, Yapei Yang, Aditya Agrawal, Tatsunori Hashimoto, Diyi Yang, Qian Yang, and Percy Liang, "Why Do Multi-Agent LLM Systems Fail?" arXiv:2503.13657, submitted March 17, 2025, https://arxiv.org/abs/2503.13657.
 
+[^2]: Melissa Z. Pan, Mert Cemri, Lingjiao Chen, Matei Zaharia, James Zou, and Percy Liang, "Measuring Agents in Production," arXiv:2512.04123, submitted December 2, 2025, revised February 3, 2026, https://arxiv.org/abs/2512.04123.
+
+[^3]: Joe Kwon and Stephen Casper, "Internal Deployment Gaps in AI Regulation," arXiv:2601.08005, submitted January 12, 2026, revised February 14, 2026, https://arxiv.org/abs/2601.08005.
+
+[^4]: Commission of the Bishops' Conferences of the European Union (COMECE), "Statement on the EU Artificial Intelligence Act," COMECE, 2024, https://church.mt/comece-on-the-artificial-intelligence-act-it-does-justice-to-the-ethical-foundations-of-the-eu/.
+
+[^5]: Dicastery for the Doctrine of the Faith and Dicastery for Culture and Education, *Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence* (Vatican City: Dicastery for the Doctrine of the Faith, January 28, 2025), https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html.
+
+[^6]: United States Conference of Catholic Bishops, *Joint Letter on Artificial Intelligence Principles and Priorities*, June 9, 2025, https://www.usccb.org/resources/joint-letter-artificial-intelligence-principles-and-priorities.
+
+[^7]: European Parliament and Council of the European Union, *Regulation (EU) 2024/1689 of the European Parliament and of the Council Laying Down Harmonised Rules on Artificial Intelligence (Artificial Intelligence Act)*, Official Journal of the European Union, August 12, 2024, https://artificialintelligenceact.eu.
+
+[^8]: Pope Francis, "Address at the Signing of the Rome Call for AI Ethics," Vatican City, February 28, 2020, https://www.vatican.va/content/francesco/en/speeches/2020/february/documents/papa-francesco_20200228_eticaartificiale.html.
+
+[^9]: *Code of Canon Law*, Canon 1609 (Vatican City: Libreria Editrice Vaticana, 1983), https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib7-cann1501-1670_en.html.
