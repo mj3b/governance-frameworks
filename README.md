@@ -1,10 +1,20 @@
 # Governance Frameworks
 
+[![Status](https://img.shields.io/badge/status-working%20draft-yellow?style=flat-square)](https://github.com/mj3b/governance-frameworks)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](./LICENSE)
+[![Version](https://img.shields.io/badge/version-v0.1-lightgrey?style=flat-square)](https://github.com/mj3b/governance-frameworks)
+[![CDCF](https://img.shields.io/badge/foundation-Catholic%20Digital%20Commons-8B0000?style=flat-square)](https://catholicdigitalcommons.org)
+[![Grounded in](https://img.shields.io/badge/grounded%20in-Antiqua%20et%20Nova%202025-gold?style=flat-square)](https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html)
+
 > *"Before accepting a project as incubating, the CDCF must determine whether its scope meets the requirements for a CDCF Project — respectful of human dignity, conducive to human flourishing, and of potential service to the Church at a wide level."*
 >
 > — Father John Romano D'Orazio, Vice Chair and Lead Developer, CDCF
 
 A working repository for governance documentation supporting the **Catholic Digital Commons Foundation (CDCF)** vetting and project management processes.
+
+---
+
+> 🏛️ **Catholic Digital Commons Foundation** · Serving the universal Church through open, governed, and mission-aligned technology infrastructure.
 
 ---
 
@@ -67,6 +77,8 @@ All documents are working drafts under active development. Version numbers refle
 
 ## Contributing
 
+> 💡 **This repository is an open governance commons.** The standards here belong to the Catholic community. Every diocese, health system, school, and ministry that contributes makes them stronger.
+
 This repository welcomes contributions from:
 
 - CDCF board members and advisors
@@ -84,5 +96,12 @@ The AI governance documents were developed by **Mark Julius Banasihan** ([@mj3b]
 
 ---
 
-*Catholic Digital Commons Foundation · [catholicdigitalcommons.org](https://catholicdigitalcommons.org)*
+<div align="center">
 
+**Catholic Digital Commons Foundation**
+
+[catholicdigitalcommons.org](https://catholicdigitalcommons.org) · [CatholicOS on GitHub](https://github.com/CatholicOS) · [Apache 2.0 License](./LICENSE)
+
+*Serving the universal Church · Open by design · Governed by principle*
+
+</div>
