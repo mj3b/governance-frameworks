@@ -116,7 +116,8 @@ The fragmentation research documented here provides the empirical foundation for
 
 ## References
 
-- Mitch, Ian, Matthew J. Malone, Karen Schwindt, Gregory Smith, Wesley Hurd, Henry Alexander Bradley, and James Gimbi. Governance Approaches to Securing Frontier AI. Santa Monica, CA: RAND Corporation, RR-A4159-1, 2025. https://www.rand.org/pubs/research_reports/RRA4159-1.html.
+- Guest, Oliver, and Kevin Wei. Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence. Santa Monica, CA: RAND Corporation, PE-A3703-1, December 2024. https://www.rand.org/pubs/perspectives/PEA3703-1.html
+- Mitch, Ian, Matthew J. Malone, Karen Schwindt, Gregory Smith, Wesley Hurd, Henry Alexander Bradley, and James Gimbi. Governance Approaches to Securing Frontier AI. Santa Monica, CA: RAND Corporation, RR-A4159-1, 2025. https://www.rand.org/pubs/research_reports/RRA4159-1.html
 - Dicastery for the Doctrine of the Faith. *Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence.* Vatican, January 2025. https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html
 - *Mensuram Bonam: Faith-Based Measures for Catholic Investors.* Pontifical Academy of Social Sciences, 2022. https://www.vatican.va/roman_curia/pontifical_academies/acdscien/documents/mensuram-bonam_en.html
 - USCCB. Joint Letter on AI Principles. June 2025. https://www.usccb.org/resources/joint-letter-artificial-intelligence-principles-and-priorities
