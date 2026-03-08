@@ -123,12 +123,12 @@ Together, Criteria 6 and 8 establish the governance specification requirements t
 ## References
 
 - Dicastery for the Doctrine of the Faith. *Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence.* Vatican, January 2025. https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html
-- USCCB. Joint Letter on AI Principles and Priorities. June 2025. https://www.usccb.org
+- USCCB. Joint Letter on AI Principles. June 2025. https://www.usccb.org/resources/joint-letter-artificial-intelligence-principles-and-priorities
 - Code of Canon Law, Canon 1609. https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib7-cann1501-1670_en.html
 - European Union. EU AI Act. August 2024, full implementation August 2026. https://artificialintelligenceact.eu
-- COMECE. Statement on the EU Artificial Intelligence Act. https://www.comece.eu
+- COMECE. Statement on the EU Artificial Intelligence Act. https://church.mt/comece-on-the-artificial-intelligence-act-it-does-justice-to-the-ethical-foundations-of-the-eu/
 - Rome Call for AI Ethics. 2020. https://www.vatican.va/content/francesco/en/speeches/2020/february/documents/papa-francesco_20200228_eticaartificiale.html
-- Cemri, M. et al. "Why Do Multi-Agent LLM Systems Fail?" 2025.
-- Pan, L. et al. "Measuring Agents in Production." 2025.
-- Kwon, J. and Casper, S. "Internal Deployment Gaps in AI Regulation." 2026.
+- Cemri, M. et al. "Why Do Multi-Agent LLM Systems Fail?" 2025. https://arxiv.org/abs/2503.13657
+- Pan, L. et al. "Measuring Agents in Production." 2025. https://arxiv.org/abs/2512.04123
+- Kwon, J. and Casper, S. "Internal Deployment Gaps in AI Regulation." 2026. https://arxiv.org/abs/2601.08005
 
